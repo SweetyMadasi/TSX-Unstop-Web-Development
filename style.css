@@ -1,0 +1,23 @@
+body {
+font-family: Arial, sans-serif;
+}
+h1 {
+color: green;
+}
+p {
+font-size: 18px;
+}
+header {
+background-color: light green;
+color: white;
+padding: 10px;
+}
+nav ul {
+list-style: none;
+display: flex;
+gap: 15px;
+padding: 0;
+}
+nav li {
+color: white;
+}
