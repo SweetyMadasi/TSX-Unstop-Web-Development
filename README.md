@@ -1,6 +1,3 @@
 # TSX Unstop We Development
 
-This is my project repository for the TSX Unstop Web Development challenge.
-
-Creating a web application using HTML, CSS, JavaScript.
-Where i structured my content with HTML,styled with CSS and enhance interactivity using JavaScript.
+Creating a portfolio web application using HTML, CSS, JavaScript, and Bootstrap involves building a static website where i structured my content with HTML, style it with CSS, and enhance interactivity using JavaScript. Bootstrap, a CSS framework, provides pre-designed components and responsive layouts to streamline the design process This approach focuses on front-end technologies to showcase my work visually and interactively.
