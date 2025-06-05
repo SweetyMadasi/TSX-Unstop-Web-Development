@@ -1,23 +1,79 @@
+/* Smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* General body styling */
 body {
-font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
 }
-h1 {
-color: green;
+
+/* Section spacing */
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
-p {
-font-size: 18px;
+
+/* Headings */
+h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
 }
-header {
-background-color: light green;
-color: white;
-padding: 10px;
+
+/* About section */
+#about {
+  background-color: #f8f9fa;
 }
-nav ul {
-list-style: none;
-display: flex;
-gap: 15px;
-padding: 0;
+
+#about p {
+  font-size: 18px;
+  color: #555;
 }
-nav li {
-color: white;
+
+/* Skills section */
+.skill-box {
+  background-color: #f0f8ff;
+  border: 1px solid #ccc;
+  padding: 25px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-weight: 500;
+  color: #007bff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.skills-box:hover 
+  transform: scale(1.05);
+  background-color: #e6f2ff;
+}
+/* Projects section */
+#projects {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #0056b3;
+  font-weight: 600;
+}
+
+/* Contact section */
+#contact p {
+  font-size: 18px;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #ddd;
+  font-size: 14px;
 }
